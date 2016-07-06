@@ -1,0 +1,59 @@
+#hero{
+    width: 100%;
+/*    width: 960px;*/
+    height: 500px;
+    position: relative;
+    margin: 50px auto;
+}
+
+#slider{
+    width: 100%;
+/*    width: 960px;*/
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#next{
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: #cc0066;
+    position: absolute;
+    top: 225px;
+    right: 0;
+    z-index: 99;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#prev{
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: #cc0066;
+    position: absolute;
+    top: 225px;
+    left: 0;
+    z-index: 99;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#hero:hover #next{
+    opacity: 1;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+#hero:hover #prev{
+    opacity: 1;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
